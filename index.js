@@ -10,13 +10,13 @@ function BoardMember(name, homeState, training){
   this.approve = function(){
     return "You can do that!";
   };
-  this.doCharity(){
+  this.doCharity = function(){
     return "I like to help people.";
   };/*
-  this.releasePressStatement(){
+  this.releasePressStatement = function(){
     return "You will see great things from Scuber.";
   };
-  this.sayHi(){
+  this.sayHi = function(){
     return `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`;
   };
   */
