@@ -7,9 +7,15 @@ function BoardMember(name, homeState, training){
     return "No, I must disagree";
   };
   this.approve = function(){
-    return "You can do that!"
+    return "You can do that!";
   };
   this.doCharity(){
-    return "I like to help people."
+    return "I like to help people.";
+  };
+  this.releasePressStatement(){
+    return "You will see great things from Scuber.";
+  };
+  this.sayHi(){
+    return `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`;
   };
 }
