@@ -1,4 +1,5 @@
 function BoardMember(name, homeState, training){
+/*
   this.name = name;
   this.homeState = homeState;
   this.training = training;
@@ -18,4 +19,5 @@ function BoardMember(name, homeState, training){
   this.sayHi(){
     return `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`;
   };
+  */
 }
